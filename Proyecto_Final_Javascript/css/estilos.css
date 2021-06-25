@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+/*font-family: 'Spicy Rice', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+	border:0;	
+	list-style: none;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "Comic Boys";
+	src: url("../fonts/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.index{
+		background-image: url(../imagenes/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+		background-size: cover;
+
+}
+
+.div1{
+	padding-top: 90px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div1 img{
+	width: 100px;
+	border-radius: 100%;
+}
+
+.botonindx{
+	max-width: 1000px;
+	width: 300px;
+	height: 80px;
+	text-align: center;
+	line-height: 55px;
+	background: linear-gradient(#7704E9, #242121);
+	font-family: 'Spicy Rice', cursive;
+	font-size: 28px;
+}
+
+.principal{
+	background-image: url(../imagenes/joshua-earle-C6duwascOEA-unsplash.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	
+	}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+.menu{
+	display: inline-flex;
+	padding-top: 30px;
+	text-align: center
+}
+
+.menu img{
+	width: 80px;
+	margin: 50px;
+}
+
+.botonpr{
+	max-width: 1000px;
+	width: 200px;
+	height: 60px;
+	padding-top: 15px;
+	margin-top: 50px;
+	text-align: center;
+	background: linear-gradient(#7704E9, #514646 );
+	font-family: 'Spicy Rice', cursive;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.botonpr3{
+	max-width: 1000px;
+	width: 200px;
+	height: 60px;
+	margin-top: 50px;
+	padding-top: 15px;
+	text-align: center;
+	line-height: 20px;
+	background: linear-gradient(#7704E9, #514646 );
+	font-family: 'Spicy Rice', cursive;
+	font-size: 18px;
+}
+
+.card-title{
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	font-size: 80px;
+}
+
+.card{
+	height: 320px;
+	margin: 70px auto;
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	text-align: justify;
+	font-size: 40px;
+	background-color: rgba(196, 196, 196, 0.4);
+	color: white;
+	border: 1px solid #7704E9;
+}
+
+
+.signo{
+	background-image: url(../imagenes/jesse-collins-qIwFIwxl3CI-unsplash.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	font-size: 30px; 
+	text-align: center;
+}
+
+.signo h1{
+	font-size: 60px; 
+}
+
+form{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+form.img{
+	width: 30px;
+}
+
+
+select{
+	width: 13rem;
+	min-height: 2rem;
+	height: 100%;
+	border-radius: 5px;
+	box-shadow: 7px 7px 5px #000000;
+	text-align-last: center;
+	
+	}
+
+.menu2{
+	display: flex;
+	background-image: url(../imagenes/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+	background-size: cover;
+}
+
+.menu2 img{
+	width: 80px;
+	margin: 50px;
+}
+
+#buscar{
+	height: 150px;
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+	background:linear-gradient(to bottom right, #E46464, #C4C4C4);
+	visibility: hidden;
+	opacity: 0;
+	}
+
+
+.enviar2{
+	width: 80px;
+	border-radius: 100%;
+	}
+
+.carta{
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1000px;
+	width: 100%
+	margin: auto;
+	}
+
+.card2{
+	height: 200px;
+	border-radius: 5px;
+	background-image: url(../imagenes/tarot.jpg);
+	background-size: cover;
+}
+
+.btn-danger{
+	background:linear-gradient(to bottom right, black, #F6FD4D );
+	margin-bottom: 5px;
+	font-family: 'Spicy Rice', cursive;
+	font-size: 18px;
+	border: none;
+}
+
+
+.modal-content{
+	background-image: url(../imagenes/joshua-earle-C6duwascOEA-unsplash.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+	align-items: center;
+	
+}
+
+.modal-header{
+	text-align: center;
+}
+
+.modal-title{
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	text-align: center;
+	font-size: 70px;
+
+}
+
+.modal-body{
+	width: 900px;
+	height: 90px;
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	border-radius: 10px;
+	background:linear-gradient(to bottom right, #F7FC86 , #C4C4C4);
+	opacity: 0.7;
+}
+
+.botonce{
+	width: 150px;
+	background-image: url(../imagenes/modalboton.jpg);
+	background-size: cover;
+	margin-bottom: 5px;
+	font-family: 'Spicy Rice', cursive;
+	font-size: 26px;
+	border: none;
+	color: black;
+}
+
+#compatible{
+	width: 800px;
+	height: 320px;
+	font-family: Comic Boys;
+	src: url("Comic Boys.ttf") format("truetype");
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	border-radius: 10px;
+	background:linear-gradient(to bottom right, #E46464, #C4C4C4);
+	visibility: hidden;
+	opacity: 0;
+	}
+
+.enviar3{
+	width: 60px;
+	}
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+ 
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #283071;
+	background-image: url("../imagenes/fonfo.jpg");
+	font-size: 28px;
+	font-weight: bold;
+	}
+
+h1{
+	text-align:center;
+	color: #7C1A90;
+	text-transform: capitalize;
+	font-family: 'Della Respira', serif;
+	font-size: 38px;
+	}
+
+h2{
+	text-align: left;
+	color: #7C1A90;;
+	font-weight: bolder;
+	font-size: 32px;
+	}
+
+img { 
+	display: block; 
+	margin: auto; 
+	width: "200px"
+
+	}
+p{
+	text-align: justify;
+	}
+
+ul{
+	list-style-image: url(../imagenes/icono.png); 
+	list-style-position: inside;
+	}
+
+table{
+	width: 500px;
+	border-color: #BF06BA;
+	border-collapse: collapse;
+	border-style: dashed;
+	}
+th{
+	height: 50px;
+	border-width: 4px;
+	border-style: dashed;
+	border-color: #BF06BA;
+	background-color: #BF06BA;
+	color: white;
+	text-align:center;
+	}
+td{
+	border-width: 4px;
+	border-style: dashed;
+	border-color: #BF06BA;
+	color: #283071;
+	}
+
+a:{
+	color:#BF06BA;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a:link{
+		color:#BF06BA;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a:visited{
+		color:#0A7FAB;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a:hover{
+		color:#0A7FAB;
+		font-weight: bold;
+		text-decoration: none;
+	}

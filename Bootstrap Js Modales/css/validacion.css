@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body{
+	background-image: url("../imagenes/fondol.jpg");
+	background-size: cover;
+}
+
+h1{
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  padding: 20px;
+}
+.card{
+	font-weight: bold;
+	background-image: url(../imagenes/fondoboton2.jpg);
+	text-align: center;
+  	margin: auto;
+  	color: white;
+}

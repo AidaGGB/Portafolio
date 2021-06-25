@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title>Contactenos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilosquienessomos.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+<!--Inicio de cabecera-->
+<header>
+	<article>
+		<div class="logo">
+			<img src="imagenes/logotipo.png">
+			<div class="botones">
+				<ul>
+            		<li><a href="#">Registrarse</a></li>	
+       	 			<li><a href="#">Iniciar Sesión</a></li>
+       	 		</ul>	
+       	 	</div>
+		</div>
+	</article>
+	
+</header>
+<!--Fin cabecera-->
+
+
+<!--Inicio pagina de navegacion-->
+<nav >
+	<ul class="menu">
+		<li><a href="index.html"><i class="fa fa-home"></i>  Inicio</a></li>
+		<li><a href="quienessomos.html"><i class="fa fa-handshake-o"></i>  Quienes somos</a></li>	
+		<li><a href="servicios.html"><i class="	fa fa-puzzle-piece"></i>  Portafolio</a>
+			<ul class="submenu">
+                <li class="servicios"><a href="servicios.html"  target="_blank">Servicios</a></li>
+                <li><a href="productos.html"  target="_blank">Productos</a></li>
+            </ul>
+		</li>	
+		<li><a href="contactenos.html"><i class="fa fa-envelope-o"></i>  Contactenos</a></li>	
+	</ul>
+</nav>
+<!--Fin barra de navegacion-->
+
+
+<!--Inicio section contactenos-->
+<div id="productos">
+	
+	<div class="ubicacion">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0568891742614!2d-74.10523563399965!3d4.583809779422894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98de8b2cdf01%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses!2sco!4v1618164540986!5m2!1ses!2sco" width="400" height="400" allowfullscreen="" loading="lazy"></iframe>
+		<div class="contactenos">
+			<h3> ¿Como Encontrarnos?</h3>
+			<p>
+			<i class="fa fa-map-marker"><strong>  Dirección: </strong>Cra 19 #20-21 sur Bogotá D,C</i>
+			<br>
+			<br>
+			<i class="fa fa-phone"><strong>  Teléfono: </strong>7777777</i></h4>
+			<br>
+			<br>
+			<i class="fa fa-envelope"><strong>  Email: </strong>correo@gmail.com</i></h4>	
+			</p>
+		</div>
+		
+	</div>
+	
+</div>
+
+<!--Fin section contactenos-->
+
+<!--Inicio section formulario-->
+<section id="productos">
+
+	<div id="formulario">
+		<form name="formulario" method="get" action= "url">
+
+		  <h1 class="line">Envíenos su mensaje</h1>
+		  <hr>
+		  <h4>Diligencie la siguiente Información.</h4>
+		  <label for="nombres"> Nombres*</label>
+		  <input type="text" id="nombres" name="nombres" size="50" maxlength="50" required="required">
+
+		  <label for="correo"> Email*</label>
+		  <input type="email" id="correo" name="correo" size="80" maxlength="80" required="required">
+
+		  <label>  Telefono de Contacto</label>
+		  <input type="number" name="Telefono" maxlength="15">
+
+		  <label for="asunto"> Asunto*</label>
+		  <input type="text" id="nombres" name="nombres" size="50" maxlength="50" required="required">
+
+		  <label for="perfil"> Mensaje*</label>
+		  <textarea rows="5" required="required"></textarea>
+
+	  	  <input type="submit" value="Enviar Mensaje">
+
+		</form> 
+	</div>
+</section>
+
+<!--Fin section formulario-->
+
+<!--Inicio footer-->
+<footer>
+	&copy;Sitio Desarrollado por PKS | Todos lo derechos Reservados
+</footer>
+<!--Fin footer-->
+
+</body>
+</html>

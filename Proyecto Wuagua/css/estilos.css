@@ -1,0 +1,1146 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face{
+	font-family:"chewy"; 
+	src:url("../fonts/Chewy.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+*{
+	margin: 0;
+	border:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+/*NAVEGADOR*/
+nav{
+	background: url(../images/nav.png);
+	width: 100%;
+	padding-bottom: 50px;
+}
+.buscareinicio{
+	margin-right: 15px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.buscar img{
+	padding-right: 10px;
+	max-width: 55px;
+}
+
+.logo{
+	text-align: center;
+	font-family:"chewy";
+	color:#4E4F51;
+	}
+
+.logo img{
+	max-width:450px;
+	width: 100%;
+}
+
+ .logo h5{
+ 	text-align: center;
+  	font-size: 25px;
+ }
+
+.botonesprincipal{
+	text-align: center;
+	}
+
+.btn-secondary{
+	margin-top: 15px;
+	background-color: #b8f2e6;
+	font-family:"chewy";
+	min-width:200px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:22px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+}
+/*Carrusel*/
+.carrusel{
+	background: url(../images/carrusel.png);
+	background-size: cover;
+	padding: 30px;
+}
+.carousel-inner{
+	margin: auto;
+}
+
+.carousel-inner img{
+	border-radius: 10px;
+}
+
+/*CONÓCENOS*/
+
+.elegirnos:hover{
+	color: rgb(184, 242, 230);
+	text-shadow: 2px 2px 5px #000000;
+	font-size: 33px;
+}
+
+.conocenos{
+	padding: 30px 0px;
+	background: url(../images/conocenos.png);
+	background-size: cover;	
+	
+}
+
+.conocenos h1{
+	font-family:"chewy";
+	color:#4E4F51;
+	text-align: center;
+
+}
+.conocenos img{
+	border-radius: 100%;
+	max-width: 200px;
+}
+.iconosconocenos{
+	margin-top: 20px;
+	text-align: center;
+}
+.iconosconocenos a{
+	font-family:"chewy";
+	text-decoration: none;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:30px;
+}
+/*SOMOS CONFIABLES*/
+.confiables{
+	background: url(../images/confiables.png);
+	background-size: cover;
+	max-width: 100%;
+	padding: 30px 0;
+}
+.confiables h1{
+	font-family:"chewy";
+	color:#4E4F51;
+	margin-top: 10px;
+	text-align: center;
+
+}
+.iconosconfiables{
+	margin-top: 30px;
+	text-align: center;
+}
+.iconosconfiables a{
+	font-family:"chewy";
+	text-decoration: none;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:30px;
+
+}
+/*PREFOOTER*/
+.prefooter{
+	background: url(../images/prefooter.png);
+	background-size: cover;
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.prefooter h5{
+	text-align: center;
+}
+.redes{
+	font-family: 'Montserrat', sans-serif;
+}
+.redes img{
+	max-width: 50px;
+	
+}
+.pagos img{
+	max-width: 321px;
+	}
+.politicas a{
+	font-family: 'Montserrat';
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	letter-spacing: -1px;
+	font-size: 20px;
+
+}
+/*FOOTER*/
+footer{
+	font-family: 'Montserrat';
+	text-align: center;
+	padding-top: 10px;
+	background: #4E4F51;
+	color: white;
+}
+
+.btn-danger{
+	margin-top: 5px;
+	background-color: #FFA299;
+	font-family:"chewy";
+	width: 200px;
+	height: 45px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 20px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+	border: none;
+	
+}
+.btn-danger:hover{
+	background-color: #4E4F51;
+	border: 2px solid #4E4F51;
+}
+/* reboot del submenu, no modificar*/
+ol,
+ul {
+  padding-left: 0.2rem;
+}
+
+/*estilos formulario ingreso*/
+
+
+.container2{
+	background-image: url(../images/nav.png);
+	background-size: cover;
+	padding: 20px;
+}
+
+.card{
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 3px 3px 7px #4E4F51;
+	border-radius: 10px;
+	border: 1px solid #4E4F51;
+	}
+
+#ingreso img{
+	width: 15rem;
+	text-align: center;
+}
+
+#ingreso h5{
+	font-size: 12px;
+	text-align: center;
+	font-family:"chewy";
+	color: #4E4F51;
+	margin-bottom: 30px;
+
+}
+
+
+#ingreso h4{
+
+	font-size: 13px;
+}
+#ingreso a{
+	font-size: 14px;
+}
+
+
+#ingreso input[type=text], input[type=password], input[type=email],select{
+	text-align: left;
+	width: 100%;
+	vertical-align: middle;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 10px 0;
+	resize: none;
+	border: 1px solid #4E4F51;
+	
+}
+
+.btn-primary{
+	background-color: #B8F2E6;
+	margin-top: 5px;
+	font-family:"chewy";
+	height: 45px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 20px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+	border: none;
+}
+
+.btn-primary:hover{
+	background-color: #FFA299;
+	border: 2px solid #FFA299;
+}
+.ncuenta{
+	text-align: center;
+}
+
+/* formulario de registro*/
+
+.card2{
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 3px 3px 5px #4E4F51;
+	border-radius: 10px;
+
+	}
+.container3{
+		background-image: url(../images/carrusel.png);
+		background-size: cover;
+	}
+#registro img{
+	width: 15rem;
+	text-align: center;
+}
+
+#registro h5{
+	font-size: 12px;
+	text-align: center;
+	font-family:"chewy";
+	color: #4E4F51;
+	margin-bottom: 30px;
+
+}
+
+#registro h4{
+	font-size: 16px;
+}
+
+.yatienes p{
+	text-align: center;
+	padding: 0px;
+}
+
+
+#registro input[type=text], input[type=password], input[type=email], input[type=file], input[type=tel], input[type=number],select, textarea{
+	text-align: left;
+	width: 100%;
+	vertical-align: middle;
+	padding: 7px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 10px 0;
+	resize: none;
+	border: 1px solid #4E4F51;
+}
+
+/* página quien soy*/
+.container4{
+		background-image: url(../images/ninom.jpg);
+		background-size: cover;
+		padding: 20px;
+		
+}
+
+.headerquiensoy{	
+	margin:  10px 0px;
+}
+
+.tituloquien h5{
+	font-size: 13px;
+}
+
+.tituloquien2 {
+	color: white;
+	text-shadow: 2px  2px  2px #4E4F51;
+}
+
+.quiensoy{
+	margin: 100px auto 20px auto;
+	padding: 8px;
+	text-align: center;
+}
+
+.btn-quien{
+	text-align: center;	
+	margin: 40px 10px;
+	background-color: #FFA299;
+	font-family:"chewy";	
+	color: #4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 25px; 
+	border-radius: 10px;
+	box-shadow: 3px 5px #4E4F51;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.btn-quien:hover{
+	background-color: #4E4F51;
+	color: #FFFFFF;
+
+}
+
+.botonquien{
+	text-align: center;
+	background-color: #b8f2e6;
+	font-family:"chewy";
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 30px; 
+	border-radius: 10px;
+	box-shadow: 3px 5px #4E4F51;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+.botonquien:hover{
+	background-color: #FFA299;
+	color: #4E4F51;
+}
+
+.terminos{
+	font-size: 12px;
+}
+
+/*formulario papas*/
+
+.container5{
+	background-image: url(../images/nav.png);
+	background-size: cover;
+	padding: 20px;
+}
+
+#ingreso{
+	padding: 30px;
+}
+
+#ingreso h2{
+	text-align: center;
+}
+.card-body2{
+	text-align: left;
+	padding: 10px;
+}
+.card-body2 h3{
+	font-weight: bold;
+
+}
+.premium{
+	font-weight: bold;
+
+}
+
+.logo2{
+	text-align: left;
+	font-family:"chewy";
+	color:#4E4F51;
+	}
+
+.logo2 img{
+	max-width: 150px;
+	width: 100%;
+}
+
+ .logo2 h5{
+ 	
+  	font-size: 14px;
+ }
+
+ .padres{	
+	padding: 20px;
+}
+
+.home img{
+	width: 70px;
+	opacity: 0.6;
+}
+
+#ingreso  label{
+	font-weight: bolder;
+}
+
+.horariopadres{
+	padding: 10px;
+	border:  2px solid #4E4F51;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.horariopadres th{
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.horariopadres td{
+	padding: 10px;
+	text-align: center;
+}
+
+.horariopadres tr{
+	border:  1px solid #4E4F51;
+}
+
+/*formulario de Niñeras*/
+
+.container6{
+	background-image: url(../images/nineraorigin2.jpg);
+	background-size: cover;
+	padding: 40px 20px;
+ }
+
+.cardn{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 3px 3px 12px #4E4F51;
+	border-radius: 10px;
+
+}
+
+.btnperfil{
+	background-color: #FFA299;
+	margin-top: 5px;
+	font-family:"chewy";
+	height: 45px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 20px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+	border: none;
+}
+
+.btnperfil:hover{
+	background-color: #B8F2E6;
+	border: 2px solid #B8F2E6;
+}
+
+/*Estilos buscador*/
+
+.input-group{
+	max-width: 700px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.container7{
+	background-image:url(../images/container7.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.home2 i{
+	font-size: 70px;
+	color: white;
+
+	}
+
+/* Estilos perfil nineras*/
+
+.container8{
+		background-image: url(../images/conocenos.png);
+		background-repeat: no-repeat;
+}
+
+.card3{
+	margin: auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(250,243,221,0.3);
+	box-shadow: 3px 3px 5px #4E4F51;
+	border-radius: 10px;
+
+	}
+
+.card3 img{
+		max-width: 150px;
+		padding-top: 40px;
+	
+	}
+
+.card-title{
+		font-weight: bold;
+
+}
+.card-text{
+	text-align: justify;
+}
+
+.card-body a{
+		color: #4E4F51;
+		font-weight: bolder;
+		font-size: 14px;
+}
+/*PERFIL NINERA*/
+.padres1{	
+	padding: 20px 0px;
+}
+
+.casaymensajes{
+	text-align: right;
+}
+.casaymensajes img{
+	max-width: 70px;
+	opacity: 0.6;
+	margin: 20px 10px;
+}
+
+.headerperfilninera{
+	background-color: rgba(184, 242, 230, 0.8);/*RGB DE COLOR AZUL-VERDE*/
+	padding: 20px;
+	text-align: center;
+
+}
+.headerperfilninera img{
+	width: 200px;
+	border-radius: 100%;
+	border: 5px solid white;
+
+}
+
+.headerperfilninera h3,h5{
+	text-align: center;
+
+}
+
+.headerperfilninera h5{
+	text-align: center;
+}	
+
+.contac{
+	padding: 20px;
+}
+
+.contac p{
+	font-size: 18px;
+}
+
+.habilidades{
+	background-color: rgb(250, 243, 221);
+	padding: 20px;
+
+}
+.experienciaed{
+padding: 20px;
+}
+.tarifa{
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+i{
+	color: #FFA299;
+}
+
+/*ESTILOS HABLEMOS*/
+
+.container10{
+	background-image: url(../images/carrusel.png);
+	background-size: cover;
+	padding: 20px;
+}
+
+.card4{
+	margin: auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(250,243,221,0.8);
+	box-shadow: 3px 3px 5px #4E4F51;
+	border-radius: 10px;
+
+}
+/*PERFIL PADRES*/
+
+.headerperfilpadres{
+	background-color: rgba(250, 243, 221, 0.8);/*RGB DE COLOR rosado clarito*/
+	padding: 20px;
+	text-align: center;
+
+}
+.headerperfilpadres img{
+	width: 200px;
+	border: 5px solid white;
+
+}
+.headerperfilpadres h3{
+	text-align: center;
+}
+
+.headerperfilpadres h5{
+	text-align: center;
+}
+.cantninos{
+	text-align: center;
+}
+.requerimientos{
+	background-color: rgb(184, 242, 230, 0.8);
+	padding: 20px;
+
+}
+
+/*ESCRIBIR A UN PERFIL UN MENSAJE*/
+
+.container14{
+	padding: 30px;
+}
+.card5{
+	margin: auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(184, 242, 230, 0.7);
+	box-shadow: 3px 3px 5px #4E4F51;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border: 1px solid #4E4F51;
+}
+.card-premium{
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 3px 3px 7px #4E4F51;
+	border-radius: 10px;
+	border: 1px solid #4E4F51;
+	padding: 20px;
+}
+.premiumprecio{
+	text-align: left;
+}
+.payu{
+	text-align: center;
+}
+
+
+/*SOMOS CONFIABLES*/
+ /*NUESTRAS TARIFAS*/
+ .container11{
+ background-image: url(../images/prefooter.png);
+ background-size: cover;
+ padding: 30px;
+ }
+  .tarifaspadres{
+ 	max-width: 900px;
+ 	width: 100%;
+ 	min-height: 400px;
+ 	margin: auto;
+ 	padding: 20px;
+ 	border: 2px solid #4E4F51;
+ 	box-shadow: 2px 2px 2px 1px rgba(78, 79, 81, 0.8);
+ 	border-radius: 20px;
+ 	background-color: rgba(184, 242, 230, 0.4);
+ 	margin-bottom: 30px;
+
+ }
+ .padresgratis{
+ 	border: 2px solid #4E4F51;
+ 	border-radius: 10px;
+
+
+}
+ .padresgratis h3{
+ 	font-family:"chewy";
+ 	color:#4E4F51;
+
+  }
+.padrespremium{
+	border: 2px solid #4E4F51;
+	border-radius: 10px;
+ }
+ .padrespremium h3{
+ 	font-family:"chewy";
+ 	color:#4E4F51;
+  }
+
+ .tarifasnineras{
+ 	max-width: 900px;
+ 	width: 100%;
+ 	min-height: 400px;
+ 	margin: auto;
+ 	padding: 20px;
+ 	border: 2px solid #4E4F51;
+ 	box-shadow: 2px 2px 2px 1px rgba(78, 79, 81, 0.8);/*RGBA DEL GRIS*/
+ 	border-radius: 20px;
+ 	background-color: rgba(255, 162, 153, 0.3); /*RGBA DE SALMÓN*/
+ }
+ .ninerasgratis{
+ 	border: 2px solid #4E4F51;
+ 	border-radius: 10px;
+ }
+ .ninerasgratis h3{
+ 	font-family:"chewy";
+ 	color:#4E4F51;
+ }
+
+.nineraspremium{
+	border: 2px solid #4E4F51;
+	border-radius: 10px;
+		
+ }
+ .nineraspremium h3{
+ 	font-family:"chewy";
+ 	color:#4E4F51;
+ }
+
+/*LO QUE OPINAN DE NOSOTROS*/
+.container12{
+background-color: white;
+
+
+}
+.tituloopiniones{
+	color:#4E4F51;
+	font-family:"chewy";
+	text-shadow: 2px 2px #ffa299;
+	padding: 20px;
+}
+
+.opiniones1{
+background-color: rgba(255,162,153,0.8);
+padding: 30px;
+}
+.clasificacion label{
+	color: #1d3557;
+	font-size: 35px;
+
+}
+.clasificacion input[type = "radio"]{
+display:none;
+}
+.opiniones2{
+background-color:rgba(250,255,255,255);
+padding: 30px;
+}
+
+/*HOVER ESTRELLAS*/
+
+.clasificacion{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.clasificacion label:hover,
+label:hover ~ label {
+  color:rgb(184, 242, 230);
+}
+
+.clasificacion input[type="radio"]:checked ~ label {
+  color:rgb(184, 242, 230);
+}
+.clasificacion p{
+	font-size: 30px;
+}
+.letraopiniones{
+	font-size: 18px;
+}
+
+/*PÁGINA DE SEGURIDAD*/
+
+.container13{
+
+	padding: 30px;
+	font-family: 'Montserrat';
+}
+
+.container13 h5, h1{
+	font-weight: bold;
+	padding: 10px;
+}
+
+.fondoseguridad{
+	background-image: url(../images/family.jpg);
+	background-size: cover;
+	max-height: 100%;
+	height: 300px;
+	font-family:"chewy";
+	text-align: center;
+	color: #FFFFFF;
+	padding: 65px;
+	text-shadow: 2px 2px #000000;
+	margin-bottom: 30px;
+}
+
+.pseguridad{
+	text-align: justify;
+ 
+}
+
+.segur:hover{
+	color: white;
+	text-shadow: 2px 2px 5px #000000;
+	font-size: 33px;
+}
+
+
+/*Estilos conocenos*/
+
+.modal-content{
+	background-image: url(../images/fondomodal1.jpg);
+	background-size: cover;
+	padding: 35px;
+	align-items: center;
+	
+}
+
+.modal-header{
+	text-align: center;
+}
+
+
+.modal-body{
+	max-width: 780px;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.wuagua{
+	color: #4E4F51;
+	font-family: 'chewy';
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+
+.modal-body h2{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn-secondary2{
+	margin-top: 15px;
+	background-color: #FFA299;
+	font-family:"chewy";
+	min-width:200px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:22px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+}
+
+.btn-secondary2:hover{
+	background-color: #B8F2E6;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+}
+
+.funcionamos i{
+		color: black;
+}
+
+.funcionamos p{
+	padding: 0px;
+	}
+
+/*Estilos politicas*/
+
+.politicad{
+	padding: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.politicad h1{
+	text-align: center;
+}
+
+.politicad img{
+	box-shadow: 2px 2px 7px #4E4F51;
+	max-width: 500px;
+	width: 100%;
+	margin: 20px;
+	border-radius: 10px;
+	
+}
+
+.politicad h2,h3,h4,h5,li{
+	text-align: left;
+}
+
+.politicad p{
+	text-align: justify;
+	font-size: 16px;
+	padding: 0;
+}
+.footerpoliticas {
+  min-height: 45px;
+ 	padding-top: 10px;
+	
+}
+.footerpoliticas h5{
+	text-align: center;
+
+}
+
+/*ESTILOS PARA HABLEMOS EN JS*/
+.success {
+  border: 4px solid green;
+  box-shadow: 2px 2px 2px green;
+
+}
+ 
+.error {
+    border: 4px solid red;
+    box-shadow: 2px 2px 2px red;
+}
+
+/*Estilos bandeja*/
+
+.bandeja{
+	max-width: 1300px;
+	width: 100%;
+	min-height: 60px;
+	border: 1px solid rgba(78, 79, 81, 0.7);
+	margin: 0 0 20px 30px;
+	background-color: rgba(184, 242, 230, 0.2);
+
+}
+
+.fecha{
+	  padding: 10px;
+		text-align: right;
+
+
+}
+
+.fecha input{
+	  background-color: rgba(184, 242, 230, 0.0);
+}
+
+.mensaje{
+	line-height: 25px;
+	padding: 20px;
+
+}
+.mensaje h4, p{
+	padding-left: 50px;
+}
+.mensaje p{
+	font-size: 18px;
+	padding-top: 10px;
+}
+.mensaje hr{
+	margin: auto 50px;
+	
+}
+
+.mensaje img{
+	max-width: 120px;
+	text-align: center;
+	padding-bottom: 15px;
+	
+}
+
+.archivo{
+		max-width: 50px;
+		padding-top: 20px;
+		opacity: 0.6;
+}
+
+.mensaje2 p{
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.mensaje2 h4, p{
+	padding-left: 50px;
+}
+
+.mensaje2 hr{
+	margin: auto 50px;
+	
+}
+
+.mensaje2 img{
+	max-width: 120px;
+	text-align: center;
+	
+}
+
+.bandeja2{
+	max-width: 1300px;
+	width: 100%;
+	min-height: 60px;
+	border: 1px solid rgba(78, 79, 81, 0.7);
+	margin: 0 0 20px 30px;
+	background-color: #FAF3DD;
+
+}
+.mensaje2{
+	line-height: 25px;
+	padding: 0 10px 30px 20px;
+
+}
+
+/*CREDITOS*/
+.container15{
+	padding: 30px;
+	text-align: center;
+	background-image: url(../images/prefooter.png);
+}
+
+
+.feedback{
+    max-width: 100%;
+    width: 100%;
+    background-color:rgba(78, 79, 81, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+
+.success {
+  border: 4px solid green;
+  box-shadow: 2px 2px 2px green;
+
+}
+ 
+.error {
+    border: 4px solid red;
+    box-shadow: 2px 2px 2px red;
+}
+
+/*Esrtilos mensajes*/
+
+.mensajes{
+		text-align: center;
+		padding-top: 40px;
+
+
+}
+.mensajes img{
+		max-width: 300px;
+		border-radius: 10px;
+		margin-top: 40px;
+	}
+
+.link a{
+		font-size: 22px;
+		color: #4E4F51;
+}
+
+.cajam{
+		padding: 20px;
+		border-radius: 10px;
+		background-color: rgba(78, 79, 81, 0.2) ;
+
+}
+
+.cajam p{
+ 	text-align: justify;
+ 	font-size: 18px;
+}
+
+.cajap{
+		padding-top: 20px;
+}
+
+.cajap p{
+		text-align: justify;
+ 		font-size: 18px;
+}

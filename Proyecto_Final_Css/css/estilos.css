@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	list-style: none;
+	
+	}
+
+body{
+	background-image: url(../imagenes/background.jpg);
+	font-family: sans-serif;
+	}
+
+header{
+		max-width: 1000px;
+		width: 100%;
+		background-color: rgba(25,25,25);
+		max-height: 85px;
+		height: 100%;
+		margin: auto;
+		}
+
+.logo{
+		padding: 20px;
+	}
+
+
+nav {
+	clear: both;
+	max-width: 1000px;
+	width: 100%;
+	max-height: 45px;
+	width: 100%;
+	margin: auto;
+	background:rgba(17, 59, 53);
+	border-bottom: 1px solid white;
+}
+
+.menu >li{
+			max-width: 150px;
+			width:100%;
+			text-align: center;
+			line-height: 45px;
+			border-right: 1px solid #ffffff;
+			font-size: 14px;
+			display: inline-block;
+			}
+
+.menu li >a{
+			color: white;
+			text-decoration: none;
+			}
+
+.submenu{
+	background-color: rgba(234,234,234);
+	max-width: 160px;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	}
+
+.submenu li a{
+		line-height: 40px;
+		color: rgba(17,59,63);
+		padding left: 10px;
+		display: block;
+		}
+
+.submenu li a:hover{
+		background-color: rgb(17,53,53);
+		color: white;
+		}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 2s;
+}
+
+		
+#banner{
+		max-width: 1000px;
+		width: 100%;
+		max-height: 350px;
+		height: 100%;
+		margin: auto;
+		}
+
+#principal{
+		max-width: 1000px;
+		width: 100%;
+		background-color: rgba(255,255,255);
+		max-height: 300px;
+		height: 100%;
+		margin: auto;
+		color: black;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                zzzzz
+		}
+
+.cajap{
+		width: 33.3%;
+		float: left;
+		background-color: rgba(255,255,255);
+		min-height: 300px;
+		height: 100%;
+		margin: auto;
+		text-align: center;
+		}
+
+.cajap h1{
+			margin: 20px;
+			text-align: left;
+			font-weight: 100;
+			font-size: 25px
+		}
+
+.cajap p{
+	margin: 20px;
+	text-align: justify;
+	}
+
+.cajap img{
+			margin:bottom;
+			box-shadow: 2px 2px 4px #000000;
+			}
+
+#bottom{
+		clear: both;
+		max-width: 1000px;
+		width: 100%;
+		background-color: rgba(43, 58, 41);
+		min-height: 193px;
+		margin: auto;
+		
+		}
+.cajab{
+		width: 25%;
+		float: left;
+		min-height: 193px;
+		color: white;
+		}
+
+.cajab h1{
+			margin: 20px;
+			min-height: 30px;
+			height: 100%;
+			text-align: center;
+			font-weight: 100;
+			font-size: 18px;
+			}
+
+a:{
+	color:white;
+	text-decoration: none;
+	}
+a:link{
+		color:white;
+		text-decoration: none;
+	}
+a:visited{
+		color:white;
+		text-decoration: none;
+	}
+a:hover{
+		color:white;
+		text-decoration: none;
+	}
+
+.cajab ul li{
+		list-style-image: url(../imagenes/list.png); 
+		list-style-position: inside;
+		margin-left: 30px;
+		text-align: left;
+		font-size: 14px;
+		}
+
+.cajab img {
+		display: block;
+		margin: auto;
+		border: 3px solid white;
+}
+
+.redes{
+	text-align: center;
+}
+
+.redes li{
+		float: left;
+		width: 40px;
+		height:40px;
+		margin:5px;
+		border-radius: 100%;
+		}
+
+.redes li:first-child{
+						background-image: url(../imagenes/facebook.jpg);
+						background-size: cover;
+
+						}
+
+.redes li:nth-child(2){
+						background-image: url(../imagenes/iconoGoogle.jpg);
+						background-size: cover;
+						}
+
+.redes li:nth-child(3){
+						background-image: url(../imagenes/iconoPinterest.jpg);
+						background-size: cover;
+						}
+
+.redes li:last-child{
+						background-image: url(../imagenes/iconoTwitter.jpg);
+						background-size: cover;
+						}
+
+.redes li a{
+		float: left;
+		width: 40px;
+		height:40px;
+		margin:5px;
+		border-radius: 100%;
+		}
+
+
+
+footer{
+		max-width: 1000px;
+		width: 100%;
+		background-color: rgba(25,25,25);
+		max-height: 60px;
+		height: 100%;
+		margin: auto;
+		text-align: center;
+		color: white;
+		
+		}

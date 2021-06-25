@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title></title>
+</head>
+
+<body>
+
+	<nav>
+
+	<ul class="menu">
+    
+    	<li><a href="">Botón 1</a></li>
+		<li><a href="#">Botón 2</a>
+			<ul class="submenu">
+    	 		<li><a href="">Submenu 1</a></li>
+    	 		<li><a href="">Submenu 2</a></li>
+       		</ul>
+    	</li>
+    	<li><a href="">Botón 3</a></li> 
+        <li><a href="">Botón 4</a></li>
+  
+    </ul>
+
+</nav>
+
+
+<div id="hojavida">
+  <form name="inscripcion" method="get" action= "url">
+
+    <h1> <img src="imagenes/datos.png" width="100px"> Datos Básicos </h1>
+
+    <label for="perfil"> Describa su perfil</label>
+    <textarea rows="5"></textarea>
+    
+    <label for="tipoid"> Tipo de identificación:</label>
+      <select name="tipoid" id="tipoid">    
+             <option value="0" selected="">Seleccione un Tipo de Documento</option>
+             <option value="NUIP">Número único de identificación personal (NUIP)</option>
+             <option value="Tarjeta de Identidad">Tarjeta de Identidad (TI)</option>
+             <option value="Cédula de Ciudadania">Cédula de Ciudadania</option>
+             <option value="Cédula de Extranjeria">Cédula de Extranjeria</option>
+      </select>
+       
+    <label for="identificacion"> Número de identificación:</label>
+    <input type="text" id="identificacion" name="identificacion" size="20" maxlength="20" required >
+
+    <label for="apellidos"> Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" size="50" maxlength="50" required >
+
+    <label for="nombres"> Nombres:</label>
+    <input type="text" id="nombres" name="nombres" size="50" maxlength="50" required >
+
+    <label for="genero"> Género</label>
+    <input type="radio" name="genero" id="genero">Femenino
+    <input type="radio" name="genero" id="genero">Masculino
+
+    <label for="ecivil"> Estado Civil: </label>
+      <input type="radio" name="ecivil" id="ecivil">Soltero
+      <input type="radio" name="ecivil" id="ecivil">Casado
+      <input type="radio" name="ecivil" id="ecivil">Unión libre
+      <input type="radio" name="ecivil" id="ecivil">Viudo(a)
+
+    <label for="telefono"> Número telefónico de contacto:</label>
+    <input type="number" id="telefono" name="telefono" size="20" maxlength="20"  required >
+
+    <label for="direccion"> Dirección de tu residencia:</label>
+    <input type="text" id="direccion" name="direccion" size="80" maxlength="80" required >
+
+    <label for="correo"> Correo electrónico de contacto</label>
+    <input type="email" id="correo" name="correo" size="80" maxlength="80" placeholder="usuario@dominio.com">
+
+    <input type="submit" value="Enviar" />
+
+    <input type="reset" value="Restablecer" />
+
+  </form>
+</div>
+</body>
+</html>

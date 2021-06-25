@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+background-image:url(../imagenes/fondobody.jpg);
+margin: auto;
+
+}
+
+.container-fluid{
+	margin-top: 70px;
+}
+
+.card{
+	margin: 10px auto;
+}
+
+
+
+.card-header{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-body{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}

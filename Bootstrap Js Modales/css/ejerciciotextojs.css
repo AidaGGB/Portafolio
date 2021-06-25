@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Serif+JP:wght@700&family=Patrick+Hand&family=Patua+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border:0;	
+	list-style: none;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Patua One', cursive;
+	font-weight: bold;
+	margin: auto;
+	}
+
+.menu{
+	display: flex;
+	max-width: 1000px
+	width:100%;
+	margin: auto;
+	background-image: url(../imagenes/fondol.jpg);
+
+	}
+	
+
+
+.menu img{
+	width: 300px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10%;
+	box-shadow: 3px 3px 5px #20211E;
+
+}
+
+.btn-primary{
+	background:linear-gradient(to bottom right, #252323, #F40A0A);
+	box-shadow: 3px 3px 5px #20211E;
+	}
+
+.btn-primary:hover{
+    background:linear-gradient(to bottom right, #252323, #4AF8D6);
+ }
+
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+   background:linear-gradient(to bottom right, #252323, #4AF8D6);
+}
+
+.contenido{
+	display: flex;
+	background-image: url(../imagenes/fondop.jpg);
+	justify-content: center;
+	align-items: center;
+}
+.formulario{
+	background-color: rgba(251, 253, 252, 0.3);
+}
+
+
+.menuh{
+	display: flex;
+	align-items: center;
+
+}
+
+.menuh h4{
+	text-align: center;
+}
+
+.feedback{
+	max-width: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 5px;
+	color: #000000;
+	font-size: 10px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+input{
+	outline: none;
+}
+.success {
+    border: 2px solid lime;
+    outline: none;
+}
+ 
+.error {
+    border: 2px solid red;
+    outline: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang=es-ES>
+<head>
+	<meta charset="utf-8">
+	<title>Hablemos</title>
+	<meta name="viewport" content=" width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="icon" href="images/logotipo2.png"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		
+</head>
+<body>
+	<div class="container-fluid container10">
+		<div class="padres row mb-2">
+			<div class="logo2 col-sm-12 col-md-12 col-lg-11">
+
+				<img src="images/logotipo2.png">
+
+				 <h5 class="tituloquien">Por ti y para tus hijos SIEMPRE.</h5>
+			</div>							
+			<div class="home col-sm-12 col-md-12 col-lg-1"><a href="index.html"><img src="images/home.png" width="50px"></a>
+			</div>
+		</div>
+		<div class="row">
+				<div class="card4" style="width: 25rem;">
+					<div class="card-body2 col-sm-12 col-md-12 col-lg-12">
+			            <div id="ingreso">
+<!--LO QUE MODIFIQUÉ-->			            	
+							<form name="formulario" method="get" action="index.html" id="frmvalidacion">
+
+							  <h1 class="line">¡Hablemos!</h1>
+							  <hr>
+							  <h4>Diligencie la siguiente Información.</h4>
+
+							  <div id="campoNombres">
+								  <label for="nombres"> Nombres*</label>
+								  <input type="text" id="nombres" name="nombrecito" size="50" maxlength="50" required="required">
+								  <div class="feedback"></div>
+							  </div>
+							  <div id="campoCorreo">
+								  <label for="correo"> Email*</label>
+								  <input type="email" id="correo" name="emailcito" size="80" maxlength="80" required="required">
+								  <div class="feedback"></div>
+							  </div>
+
+								  <label>  Teléfono de Contacto</label>
+								  <input type="number" name="Telefono" maxlength="15">
+
+								<div id="campoAsunto">
+								  <label for="asunto"> Asunto*</label>
+								  <input type="text" id="asunto" name="quierohablar" size="50" maxlength="50" required="required">
+								  <div class="feedback"></div>
+							  </div>
+							  <div id="CampoMensaje">
+								  <label for="perfil">Mensaje*</label>
+								  <textarea rows="5" id="mensaje" name="hablemos"required="required"></textarea>
+								  <div class="feedback"></div>
+							  </div>
+
+						  	 <div class="d-grid gap-2"><input type="submit" value="Enviar mensaje" class="btn btn-primary"></div><br>
+
+							</form> 
+						</div>	
+					</div>
+				</div>
+ 			</div>	
+		</div>
+<script type="text/javascript" src="js/hablemos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+</html>

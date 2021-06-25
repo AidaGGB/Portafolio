@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:ital,wght@0,700;1,300;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border:0;	
+	list-style: none;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url('../imagenes/fondo.jpg');
+	font-family: 'Raleway', sans-serif;
+}
+
+nav{
+	max-width: 1000px;
+	width: 100%;
+	background-color:rgba(172, 165, 163);
+	max-height: 50px;
+	margin: auto;
+}
+
+.menu >li{
+		display: inline-block;
+		max-width: 160px;
+		width: 100%;
+		line-height: 50px;
+		text-align: center;
+	}
+
+.menu li>a{
+		color: #FFFFFF;
+		text-decoration: none;
+
+}
+
+.menu li a:hover{
+			color: green;
+}
+
+.submenu{
+	position: absolute;
+	background-color: blue;
+	max-width: 160px;
+	visibility: hidden;
+	opacity: 0;
+
+}
+.submenu li a{
+		line-height: 40px;
+		color: yellow;
+
+
+}
+.submenu li a:hover{
+		color: green;
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 3s;
+}
+
+
+#hojavida{
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+	background-color: rgba(213,223,221,0.7);
+	box-shadow: 3px 3px 5px #000000;
+	padding: 50px;
+
+}
+
+#hojavida label{
+		width: 40%;
+		display: inline-block;
+		margin-bottom: 20px;
+}
+
+#hojavida input[type=text], input[type=number], input[type=email], select, textarea{
+	width: 55%;
+	vertical-align: middle;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	border: 1px solid #000000;
+	margin: 8px 0;
+	resize: none;
+}
+
+#hojavida input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, select:focus, textarea:focus{
+	box-shadow: 3px, 3px, 5px, #000000;
+	outline: none;
+}
+
+
+#hojavida input[type=submit]{
+	width: 140px;
+	margin: 10px;
+	padding: 10px;
+	background: linear-gradient(#000000, #0a0a0c);
+	border-radius: 5px;
+	border: none;
+	color: #FFFFFF;
+	font-weight: bold;
+
+}
+
+#hojavida input [type=submit]:hover{
+	background: linear-gradient (#0a0a0a,#000000);
+	box-shadow: 0 0 20px #000000;
+}
+
+
+#hojavida [type=reset]{
+	width: 140px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px solid #000000;
+	color: #000000;
+	font-weight: bold;
+}
+
+#hojavida input [type=reset]:hover{
+	background: linear-gradient (#0a0a0a,#000000);
+	color:#FFFFFF;
+}
